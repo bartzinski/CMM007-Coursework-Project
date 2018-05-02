@@ -1,0 +1,496 @@
+body
+{
+	/* Font type for Website */
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+/* Index Webpage CSS settings: */
+
+#container
+{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#header
+{
+	
+	background-color: #6F256F;
+}
+
+#logo
+{
+	
+	float: left;
+	margin: 20px;
+	margin-bottom: 16px;
+}
+
+#login
+{	
+	font-size: 30px;
+	float: right;
+	margin: 15px;
+	background-color: #7G367G;
+	color: #ffffff;
+	
+	
+}
+
+#image
+{	
+	display: block;
+	padding: 0 20px;
+	margin: 20px auto;
+	float: left;
+
+}
+
+#description
+{
+	float: left;
+	height: 300px;
+	width: 600px;
+	margin: 20px auto;
+	border: 1px solid black;
+	text-align: center;
+	background-color: #6F256F;
+	font-size: 18px;
+	color: #ffffff;
+	
+	
+	
+}
+
+
+#football
+{
+	font-size: 24px;
+	float: left;
+	display:block;
+	margin: 10px auto;
+	padding: 0 20px;
+	text-align: center;
+	color: #6F256F;
+}
+
+#badminton
+{
+	font-size: 24px;
+	float: left;
+	display:block;
+	margin: 10px auto;
+	text-align: center;
+	color: #6F256F;
+}
+
+#map
+{
+	font-size: 24px;
+	float: left;
+	display:block;
+	margin: 10px auto;
+	padding: 0 20px;
+	text-align: center;
+	color: #6F256F;
+}
+
+input
+{
+	background-color: #ffffff;
+	border-radius: 2px;
+	padding: 5px;
+	width: 160px;
+}
+
+
+/* Member webpage CSS settings */
+
+#header_member
+{
+	
+	background-color: #6F256F;
+	margin-right: 15px;
+}
+
+#classes
+{
+	margin: 15px;
+	
+}
+
+#news
+{
+	margin: 15px;
+	
+}
+
+#gym
+{
+	margin: 13px;
+	
+}
+
+#logout a
+{
+	font-size: 25px;
+	margin-left: 350px;
+}
+
+#logout a:hover
+{
+	
+	color: #f44292;
+	
+}
+
+/* Your Profile Webpage CSS settings: */
+
+#header_profile
+{
+	
+	background-color: #6F256F;
+	margin-right: 15px;
+}
+
+#panel_profile
+{
+	margin-top: 10px;
+	font-size: 20px;
+	margin-left: 185px;
+	margin-right: 15px;
+	height: 641px;
+	background-color: #6F256F;
+	color: #fff;
+}
+
+#table_profile
+{
+	display: block;
+	float: left;
+	margin: 10px;
+	margin-left:10px;
+	
+}
+
+
+#upload_form
+{
+	
+	margin-top: -200px;
+	margin-left: 10px;
+	
+}
+
+#picture
+{
+	
+	float:right;
+	margin-top: -450px;
+	margin-right: 350px;
+}
+
+/* Admin webpage CSS settings: */
+#header_admin
+{
+	
+	background-color: #6F256F;
+	margin-right: 15px;
+	
+}
+
+#welcome
+{	
+	font-size: 30px;
+	float: left;
+	margin: 15px;
+	background-color: #7G367G;
+	color: #ffffff;
+	
+	
+}
+
+#home
+{
+	border: black 1px solid;
+	
+}
+
+
+#team
+{
+	float:left;
+	height: 300px;
+	width: 600px;
+	font-size: 25px;
+	display:block;
+	margin: 20px 10px;
+	border: 1px solid black;
+	margin-left: 25px;
+	text-align: center;
+	background-color: #6F256F;
+	color: #ffffff;
+	
+}
+
+#manager
+{
+	float: left;
+	height: 300px;
+	width: 600px;
+	font-size: 25px;
+	display:block;
+	margin: 20px 10px;
+	border: 1px solid black;
+	text-align: center;
+	background-color: #6F256F;
+	color: #ffffff;
+}
+
+#list
+{
+	float: left;
+	height: 300px;
+	width: 600px;
+	font-size: 25px;
+	display:block;
+	margin: 20px 10px;
+	border: 1px solid black;
+	text-align: center;
+	background-color: #6F256F;
+	color: #ffffff;
+	
+	
+}
+
+#team:hover
+{
+	cursor: pointer;
+	background-color: #ba4ab2;
+}
+
+#manager:hover
+{
+	cursor: pointer;
+	background-color: #ba4ab2;
+}
+
+#list:hover
+{
+	cursor: pointer;
+	background-color: #ba4ab2;
+}
+
+#logout_admin a
+{
+	font-size: 25px;
+	margin-left: 450px; 
+}
+
+#logout_admin a:hover
+{
+	
+	color: #f44292;
+	
+}
+
+/* Admin New Team Webpage CSS settings: */
+
+#panel
+{
+	margin-top: -13px;
+	font-size: 20px;
+	margin-left: 320px;
+	margin-right: 15px;
+	background-color: #6F256F;
+	color: #fff;
+}
+
+#form
+{
+	float:left;
+	display: block;
+	padding: 20px;
+	
+}
+
+
+#sidebar
+{
+	margin-top: 10px;
+	float: left;
+
+}
+
+.option
+{
+	font-size: 30px;
+	padding: 5px;
+	height: 150px;
+	background-color: #6F256F;
+	border-bottom: 1px dashed #ffffff;
+	text-align: center;
+	
+}
+
+a
+{
+	text-decoration: none;
+	color: #ffffff;
+	
+}
+
+.option a:hover
+{
+	color: #f44292;
+}
+
+#content
+{
+	margin-top: -660px;
+	margin-left: 810px;
+	border: 1px solid black;
+	height: 640px;
+	text-align: justify;
+	font-size: 22px;
+	background-color: #6F256F;
+	color: #ffffff;
+}
+
+/* Admin new Manager Webpage CSS settings: */
+
+#header_adminNewManager
+{
+	
+	background-color: #6F256F;
+	margin-right: 15px;
+}
+
+
+/* Teams Webpage CSS settings: */
+
+#header_teams
+{
+	
+	background-color: #6F256F;
+	margin-right: 15px;
+}
+
+#panel_teams
+{
+	margin-top: 10px;
+	font-size: 20px;
+	margin-left: 185px;
+	margin-right: 15px;
+	background-color: #6F256F;
+	color: #fff;
+}
+
+#badminton_teams
+{
+	float: right;
+	display: block;
+	margin: 25px;
+	margin-right: 50px;
+}
+
+#football_teams
+{
+	float: left;
+	display: block;
+	margin: 25px;
+	margin-left: 50px;
+}
+
+
+/* Team manager webpage CSS settings: */
+
+#header_tmanager
+{
+	
+	background-color: #6F256F;
+	margin-right: 15px;
+}
+
+
+
+/* Footer CSS settings: */
+
+#footer
+{
+	
+	text-align: center;
+	margin: 10px 0;
+	background-color: #6F256F;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+#facebook
+{
+	
+	background-color: #3b5998;
+	color: #ffffff;
+	padding: 10px;
+	margin-left: 545px;
+	margin-top: 10px;
+	float:left;
+}
+
+#youtube
+{
+	background-color: #ff0000;
+	color: #ffffff;
+	padding: 10px;
+	margin-left: 100px;
+	margin-top: 10px;
+	float:left;
+}
+
+#twitter
+{
+	background-color: #00aced;
+	color: #ffffff;
+	padding: 10px;
+	margin-left: 100px;
+	margin-top: 10px;
+	float:left;
+}
+
+#contact
+{
+	background-color: #6F256F;
+	color: #F81800;
+	padding: 10px;
+	margin-left: 100px;
+	margin-top: 10px;
+	float:left;
+}
+
+#facebook:hover
+{
+	cursor: pointer;
+	background-color: #2a4887;
+}
+
+#youtube:hover
+{
+	cursor: pointer;
+	background-color: #ee0000;
+}
+
+#twitter:hover
+{
+	cursor: pointer;
+	background-color: #00abdc;
+}
+
+#contact:hover
+{
+	cursor: pointer;
+	background-color: #5e145f;
+}
+
